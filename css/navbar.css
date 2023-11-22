@@ -1,0 +1,44 @@
+.navBar_container {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 18px 80px;
+}
+
+.navBar_container__options ul{
+    display: flex;
+    
+}
+
+.navBar_container__options ul li{
+    color: #667085;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 0 32px;
+    
+}
+
+.navBar_container__buttons {
+    display: flex;
+    
+}
+
+.navBar_container__buttons button {
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    height: 44px;
+    margin: 0 12px;
+    width: 112px;
+}
+
+#btnEntrar {
+    background: none;
+    color: #667085;
+}
+
+#btnCadastrar {
+    background: #8E2424;
+    color: #FFF;
+}
