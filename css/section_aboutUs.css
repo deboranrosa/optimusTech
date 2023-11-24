@@ -1,0 +1,28 @@
+@import url('./colors.css');
+
+.aboutUs_container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 96px 0;
+}
+
+.aboutUs_container span {
+    color: var(--text-color);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.aboutUs_container h1 {
+    font-size: 48px;
+    letter-spacing: -0.96px;
+    margin: 24px 0;
+}
+
+.aboutUs_container p {
+    color: var(--text-colorII);
+    font-size: 20px;
+    font-weight: 400;
+    width: 791px;
+}
