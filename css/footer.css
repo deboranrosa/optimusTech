@@ -1,0 +1,56 @@
+.footer_container {
+    align-items: center;
+    background: #F9FAFB;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    padding: 96px 0;
+    text-align: center;
+}
+
+.footer_container__text {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer_container__text h3 {
+    color: #101828;
+    font-size: 36px;
+    line-height: 44px; 
+    letter-spacing: -0.72px;
+}
+
+.footer_container__text p {
+    color: #667085;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.footer_container__form  input {
+    border: 1px solid #D0D5DD;
+    border-radius: 8px;
+    height: 48px;
+    padding: 12px 14px 12px 16px;
+    width: 360px;    
+}
+
+.footer_container__form button {
+    background: #8E2424;
+    border: 1px solid #8E2424;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 16px;
+    height: 48px;
+    width: 116px;
+}
+
+#author {
+    color: #98A2B3;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px
+}

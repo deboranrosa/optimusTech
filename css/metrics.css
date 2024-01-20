@@ -1,0 +1,28 @@
+.metrics_container {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 80px;
+}
+
+.metrics_container__infos {
+    margin: 0 32px;
+    width: 100%;
+}
+
+.metrics_container__infos h3 {
+    color: var(--text-color);
+    font-size: 60px;
+    font-weight: 600;
+    letter-spacing: -1.2px;
+}
+
+.metrics_container__infos p {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+.metrics_container__infos span {
+    color: var(--text-colorII);
+    font-size: 14px;
+}

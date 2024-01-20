@@ -1,0 +1,42 @@
+.career_container {
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+    padding: 0 32%;   
+}
+
+.career_container__infos h5{
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 32px;
+}
+
+.carrer_container__infos_opportunities {
+    border: 1px solid var(--border-vagas);
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    height: 136px;
+    margin-bottom: 24px;
+    padding: 24px 24px 28px 24px;
+    width: 768px;
+}
+
+.carrer_container__infos_opportunities h6 {
+    color: #101828;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.carrer_container__infos_opportunities .salary {
+    display: flex;
+    justify-content: flex-start;
+    gap: 24px;
+}
+
+.carrer_container__infos_opportunities .salary p {
+    color: var(--text-colorII);
+    font-size: 16px;
+    font-weight: 500;
+}
